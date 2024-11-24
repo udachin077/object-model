@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "object-model"
+version = "0.1.0"
+description = "Included event and observable collections."
+authors = ["udachin077 <pypi.udachin@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["tests", "examples"]
+packages = [{ include = "object_model", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
